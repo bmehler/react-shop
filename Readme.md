@@ -2,7 +2,7 @@
 
 This is a React Online Shop Demo. It supports a productcatalog, a collection of choosen products and a basket with adjustable quantity of a product. It's created for responsive views.
 
-### [Read the tutorial]()
+### [View Demo](https://bmehler.github.io/react-shop)
 
 ## Author
 
@@ -10,4 +10,4 @@ This is a React Online Shop Demo. It supports a productcatalog, a collection of 
 
 ## License
 
-This project is open source and available under the [MIT License]().
+This project is open source and available under the [MIT License](https://bmehler.github.io/react-shop).
