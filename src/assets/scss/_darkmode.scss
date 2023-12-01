@@ -1,0 +1,82 @@
+body.dark {
+background-color: #212529;
+    color: #fff;
+}
+
+body.dark h1,
+body.dark h2 {
+    color: #bc2d3b;
+}
+
+body.dark .bg-secondary {
+      color: #000 !important;
+      background-color: #e1e3e5 !important;
+}
+
+body.dark .card {
+    background-color: #2b3035;
+    color: #fff;
+    border: 0
+}
+
+body.dark .card-title {
+      color: #000;
+}
+
+body.dark .card-body {
+    background-color: #2b3035;
+    color: #fff;
+}
+
+body.dark .list-group-item {
+      background-color: #2b3035;
+      color: #fff;
+}
+
+body.dark .bg-light {
+      background-color: #dc3545 !important;
+}
+
+body.dark .btn-outline-danger {
+      color: #dc3545;
+      background-color: transparent;
+      border: 1px solid #dc3545;
+}
+
+body.dark .btn-outline-danger:hover {
+      color: #fff;
+      background-color: #dc3545;
+      border: 1px solid #dc3545;
+}
+
+body.dark .btn-dark.disabled {
+      border: 1px solid #198754;
+      background-color: transparent;
+      color: #198754
+}
+
+body.dark .shopping-price {
+      background-color: #2b3035;
+      color: #fff;
+      border: 0;
+      width: 15%;
+}
+
+body.dark .shopping-price:focus {
+      outline: 0;
+}
+
+body.dark .auswahl {
+      border: 1px solid grey;
+}
+
+body.dark .alert-secondary {
+      color: #fff;
+      background-color: #bc2d3b;
+      border: 1px solid #bc2d3b;
+}
+
+body.dark .table {
+    --bs-table-bg: #2b3035;
+    --bs-table-color: #fff;
+}

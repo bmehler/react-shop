@@ -1,0 +1,41 @@
+$color_1: #000;
+
+.toggle {
+    float: right !important;
+}
+
+.margin-top {
+    margin-top: 5.3rem !important;
+}
+
+.shopping-name {
+    color: $color_1;
+    background-color: #e1e3e5;
+    border: 0;
+    &:focus {
+        background-color: #6c757d;
+        outline: 0;
+    }
+}
+
+.shopping-price {
+    background-color: #fff;
+    border: 0;
+    width: 15%;
+    &:focus {
+        outline: 0;
+    }
+}
+
+.form-select {
+    width: 25%;
+    display: inline;
+}
+
+.card-title {
+    color: $color_1;
+}
+
+.bg-secondary {
+    background-color: #e1e3e5 !important;
+}
