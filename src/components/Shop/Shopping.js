@@ -106,7 +106,7 @@ const Shopping = (props) => {
                                         <option value="3">3</option>
                                     </select>
                                     <span className="card-body">
-                                        <a href="#" className="delete-button btn btn-sm btn-outline-danger" onClick={() => deleteShoppingItem(shopping.id, shopping.name, shopping)}><FontAwesomeIcon icon={faTrashCan} /> Löschen</a>
+                                        <a className="delete-button btn btn-sm btn-outline-danger" onClick={() => deleteShoppingItem(shopping.id, shopping.name, shopping)}><FontAwesomeIcon icon={faTrashCan} /> Löschen</a>
                                     </span>
                                 </li>
                             </ul>
