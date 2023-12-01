@@ -102,7 +102,7 @@ const Basket = (props) => {
                     <div style={{ width: '99%' }}>
                         <h5 style={{ float: 'right' }}>Gesamtsumme (in Euro)<span id="total" className='mx-5'></span></h5>
                     </div>
-                    <a href="/" className="product-button btn btn-xl btn-outline-danger" onClick={() => setEditingShopping(false)}><FontAwesomeIcon icon={faGift} /> Zurück zum Produktkatalog</a>
+                    <a href="/react-shop" className="product-button btn btn-xl btn-outline-danger" onClick={() => setEditingShopping(false)}><FontAwesomeIcon icon={faGift} /> Zurück zum Produktkatalog</a>
                     <button className="product-button btn btn-xl btn-danger disabled mx-2" onClick={() => setOrder(props.baskets[1])}><FontAwesomeIcon icon={faEnvelopeCircleCheck} /> Zur Kasse</button>
                 </div>
             </div>
@@ -116,7 +116,7 @@ const Basket = (props) => {
                             <ul className="list-group list-group-flush">
                                 <li className="shopping-product-name list-group-item bg-secondary">{basket.name}</li>
                                 <li className="list-group-item"><strong>Positon {index + 1}</strong> / <strong>Art.Nr. {basket.id}</strong></li>
-                                <Quantity basket={basket} setCounter={setCounter} />
+                                <Prices basket={basket} setCounter={setCounter} />
                                 <li className="list-group-item "><button className="product-button btn btn-sm btn-danger" onClick={() => deleteFromBasket(basket)}><FontAwesomeIcon icon={faTrashCan} /> Löschen</button></li>
                             </ul>
                         </div>
@@ -126,7 +126,7 @@ const Basket = (props) => {
                     <p style={{ float: 'right' }}>Gesamtbetrag (in Euro)<span id="total" className='mx-5 fw-bold'></span></p>
                 </div>
                 <div class="col-sm-12">
-                    <a href="https://bmehler.github.io/react-shop/" className="btn btn-xl btn-outline-danger mt-5 mb-2" onClick={() => setEditingShopping(false)}><FontAwesomeIcon icon={faGift} /> Zurück zum Produktkatalog</a>
+                    <a href="/react-shop" className="btn btn-xl btn-outline-danger mt-5 mb-2" onClick={() => setEditingShopping(false)}><FontAwesomeIcon icon={faGift} /> Zurück zum Produktkatalog</a>
                 </div>
                 <div class="col-sm-12">
                     <button className="product-button btn btn-xl btn-danger disabled mt-3 mb-5" onClick={() => setOrder(props.baskets[1])}><FontAwesomeIcon icon={faEnvelopeCircleCheck} /> Zur Kasse</button>
