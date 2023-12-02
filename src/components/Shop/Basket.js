@@ -102,7 +102,7 @@ const Basket = (props) => {
                     <div style={{ width: '99%' }}>
                         <h5 style={{ float: 'right' }}>Gesamtsumme (in Euro)<span id="total" className='mx-5'></span></h5>
                     </div>
-                    <a href="/react-shop" className="product-button btn btn-xl btn-outline-danger" onClick={() => setEditingShopping(false)}><FontAwesomeIcon icon={faGift} /> Zurück zum Produktkatalog</a>
+                    <a href="/react-shop" className="product-button btn btn-xl btn-outline-danger" onClick={() => setEditingShopping(false)}><FontAwesomeIcon icon={faGift} /> Neuer Einkauf</a>
                     <button className="product-button btn btn-xl btn-danger disabled mx-2" onClick={() => setOrder(props.baskets[1])}><FontAwesomeIcon icon={faEnvelopeCircleCheck} /> Zur Kasse</button>
                 </div>
             </div>
@@ -126,7 +126,7 @@ const Basket = (props) => {
                     <p style={{ float: 'right' }}>Gesamtbetrag (in Euro)<span id="total" className='mx-5 fw-bold'></span></p>
                 </div>
                 <div class="col-sm-12">
-                    <a href="/react-shop" className="btn btn-xl btn-outline-danger mt-5 mb-2" onClick={() => setEditingShopping(false)}><FontAwesomeIcon icon={faGift} /> Zurück zum Produktkatalog</a>
+                    <a href="/react-shop" className="btn btn-xl btn-outline-danger mt-5 mb-2" onClick={() => setEditingShopping(false)}><FontAwesomeIcon icon={faGift} /> Neuer Einkauf</a>
                 </div>
                 <div class="col-sm-12">
                     <button className="product-button btn btn-xl btn-danger disabled mt-3 mb-5" onClick={() => setOrder(props.baskets[1])}><FontAwesomeIcon icon={faEnvelopeCircleCheck} /> Zur Kasse</button>
