@@ -59,6 +59,12 @@ const App = () => {
     }
 
     return (
+        <div>
+        <div className="container-fluid demo">
+            <div className="container">
+                <InfoAlert/>
+            </div>
+        </div>
         <div className="container">
             <div className="row pt-5 pb-5">
                 <div className="col-lg-6">
@@ -66,11 +72,6 @@ const App = () => {
                 </div>
                 <div className="col-lg-6">
                     <DarkModeToggle />
-                </div>
-            </div>
-            <div className="row">
-                <div className="col-lg-12">
-                    <InfoAlert />
                 </div>
             </div>
             {!editing ? (
@@ -94,6 +95,7 @@ const App = () => {
                     </div>
                 </div>
             )}
+            </div>
         </div>
     )
 }

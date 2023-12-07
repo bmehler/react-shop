@@ -1,4 +1,10 @@
 $color_1: #000;
+$color_2: #dc3545;
+
+.demo {
+    background-color: $color_2;
+    color: #fff;
+}
 
 .toggle {
     float: right !important;
